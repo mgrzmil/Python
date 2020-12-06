@@ -5,5 +5,7 @@ def calculate(a, b, operacja):
     return a - b
   elif operacja =="*":
     return a * b
-  elif operacja =="/"
+  elif operacja =="/":
     return a / b
+  elif operacja == "**":
+    return a ** b
