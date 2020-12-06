@@ -4,7 +4,7 @@ koszyk = [
     {'nazwa': 'chleb', 'ilosc':5, 'cena':2.5},
     {'nazwa': 'maslo', 'ilosc':50, 'cena':10.0},
 ]
-
+# liczenie sumy wartosc produktow w koszyku
 def suma_koszyka(koszyk):
     sum = 0
     for poz in koszyk:
