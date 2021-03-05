@@ -6,6 +6,6 @@ def calculate(a, b, operacja):
   elif operacja =="*":
     return a * b
   elif operacja =="/":
-    return a / b
+    return float(a) / b 
   elif operacja == "**":
     return a ** b
